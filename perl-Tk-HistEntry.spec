@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test" (requires working $DISPLAY)
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tk
-%define	pnam	HistEntry
+%define		pdir	Tk
+%define		pnam	HistEntry
 Summary:	Tk::HistEntry Perl module - entry widget with history capability
 Summary(pl):	Modu³ Perla Tk::HistEntry - widget wprowadzania z obs³ug± historii
 Name:		perl-Tk-HistEntry
