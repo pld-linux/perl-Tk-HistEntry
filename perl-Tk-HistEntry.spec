@@ -11,7 +11,7 @@ Name:		perl-Tk-HistEntry
 Version:	0.42
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9ee4c3e5469d262cbd18062a4c26495f
