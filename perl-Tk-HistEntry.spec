@@ -1,6 +1,6 @@
 #
 # Conditional build:
-# _with_tests - perform "make test" (requires working $DISPLAY)
+%bcond_with	tests	# perform "make test" (requires working $DISPLAY)
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Tk
@@ -8,14 +8,15 @@
 Summary:	Tk::HistEntry Perl module - entry widget with history capability
 Summary(pl):	Modu³ Perla Tk::HistEntry - widget wprowadzania z obs³ug± historii
 Name:		perl-Tk-HistEntry
-Version:	0.41
+Version:	0.42
 Release:	1
-License:	unknown
+# same as perl
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	055dc8efd39dfccc224bbb43bbb5c318
-BuildRequires:	perl-devel >= 5.6
+# Source0-md5:	9ee4c3e5469d262cbd18062a4c26495f
 BuildRequires:	perl-Tk
+BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -46,7 +47,7 @@ historyAdd() lub automatycznie przez ustawienie opcji -command.
 	INSTALLDIRS=vendor
 %{__make}
 
-%{?_with_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
