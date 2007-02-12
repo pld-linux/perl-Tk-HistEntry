@@ -6,7 +6,7 @@
 %define		pdir	Tk
 %define		pnam	HistEntry
 Summary:	Tk::HistEntry Perl module - entry widget with history capability
-Summary(pl):	Modu³ Perla Tk::HistEntry - widget wprowadzania z obs³ug± historii
+Summary(pl.UTF-8):   ModuÅ‚ Perla Tk::HistEntry - widget wprowadzania z obsÅ‚ugÄ… historii
 Name:		perl-Tk-HistEntry
 Version:	0.42
 Release:	1
@@ -30,13 +30,13 @@ Down keys through the history list. New history entries may be added
 either manually by binding the Return key to historyAdd() or
 automatically by setting the -command option.
 
-%description -l pl
+%description -l pl.UTF-8
 Klasa Tk::HistEntry definiuje podstawowe widgety do wprowadzania
-tekstu z obs³ug± historii. Widgety s± dostêpne w dwóch rodzajach:
-HistEntry (Tk::HistEntry::Browse) z powi±zanym przegl±daniem oraz
-SimpleHistEntry (Tk::HistEntry::Simple) bez przegl±dania. U¿ytkownik
-mo¿e przegl±daæ listê historii klawiszami Góra i Dó³. Nowe elementy
-historii mog± byæ dodawane rêcznie przez podpiêcie klawisza Return do
+tekstu z obsÅ‚ugÄ… historii. Widgety sÄ… dostÄ™pne w dwÃ³ch rodzajach:
+HistEntry (Tk::HistEntry::Browse) z powiÄ…zanym przeglÄ…daniem oraz
+SimpleHistEntry (Tk::HistEntry::Simple) bez przeglÄ…dania. UÅ¼ytkownik
+moÅ¼e przeglÄ…daÄ‡ listÄ™ historii klawiszami GÃ³ra i DÃ³Å‚. Nowe elementy
+historii mogÄ… byÄ‡ dodawane rÄ™cznie przez podpiÄ™cie klawisza Return do
 historyAdd() lub automatycznie przez ustawienie opcji -command.
 
 %prep
