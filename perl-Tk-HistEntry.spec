@@ -6,7 +6,7 @@
 %define		pdir	Tk
 %define		pnam	HistEntry
 Summary:	Tk::HistEntry Perl module - entry widget with history capability
-Summary(pl.UTF-8):   Moduł Perla Tk::HistEntry - widget wprowadzania z obsługą historii
+Summary(pl.UTF-8):	Moduł Perla Tk::HistEntry - widget wprowadzania z obsługą historii
 Name:		perl-Tk-HistEntry
 Version:	0.42
 Release:	1
