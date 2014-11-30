@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_with	tests	# perform "make test" (requires working $DISPLAY)
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Tk
 %define		pnam	HistEntry
+%include	/usr/lib/rpm/macros.perl
 Summary:	Tk::HistEntry Perl module - entry widget with history capability
 Summary(pl.UTF-8):	Moduł Perla Tk::HistEntry - widget wprowadzania z obsługą historii
 Name:		perl-Tk-HistEntry
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a9373d96bcc25f205ec970f6fe92c5ef
+URL:		http://search.cpan.org/dist/Tk-HistEntry/
 BuildRequires:	perl-Tk
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov
