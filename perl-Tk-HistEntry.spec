@@ -4,7 +4,6 @@
 
 %define		pdir	Tk
 %define		pnam	HistEntry
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tk::HistEntry Perl module - entry widget with history capability
 Summary(pl.UTF-8):	Moduł Perla Tk::HistEntry - widget wprowadzania z obsługą historii
 Name:		perl-Tk-HistEntry
