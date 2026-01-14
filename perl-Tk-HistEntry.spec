@@ -8,7 +8,7 @@ Summary:	Tk::HistEntry Perl module - entry widget with history capability
 Summary(pl.UTF-8):	Moduł Perla Tk::HistEntry - widget wprowadzania z obsługą historii
 Name:		perl-Tk-HistEntry
 Version:	0.43
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
